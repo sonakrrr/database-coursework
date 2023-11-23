@@ -119,6 +119,45 @@ CREATE TABLE "permissions" (
     CONSTRAINT "permissions_pkey" PRIMARY KEY ("id")
 );
 
+-- CreateTable
+CREATE TABLE "labels" (
+    "id" SERIAL NOT NULL,
+    "name" VARCHAR(30) NOT NULL,
+    "color" VARCHAR(15) NOT NULL,
+
+    CONSTRAINT "labels_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "tags" (
+    "label_id" INTEGER NOT NULL,
+    "task_id" INTEGER NOT NULL
+);
+
+-- CreateTable
+CREATE TABLE "attachments" (
+    "id" SERIAL NOT NULL,
+    "url" VARCHAR(200) NOT NULL,
+    "format" VARCHAR(15) NOT NULL,
+    "task_id" INTEGER NOT NULL,
+    "created_at" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "attachments_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "reviews" (
+    "id" SERIAL NOT NULL,
+    "task_id" INTEGER NOT NULL,
+    "participant_id" INTEGER NOT NULL,
+    "replied_to" INTEGER,
+    "created_at" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updated_at" TIMESTAMP,
+    "content" VARCHAR(1000) NOT NULL,
+
+    CONSTRAINT "reviews_pkey" PRIMARY KEY ("id")
+);
+
 -- CreateIndex
 CREATE UNIQUE INDEX "users_login_key" ON "users"("login");
 
