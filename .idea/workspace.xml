@@ -4,22 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="394ce509-d449-4627-ba01-b902d1c719d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publish.sh" beforeDir="false" afterPath="$PROJECT_DIR$/publish.sh" afterDir="false" />
+    <list default="true" id="394ce509-d449-4627-ba01-b902d1c719d1" name="Changes" comment="Add foreign keys">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sql/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kol-oss&quot;
+  }
+}</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cc3c7599-cc02-4f82-9811-6eb1111faef0" />
+        <option name="url" value="https://github.com/kol-oss/database-cousework.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,13 +67,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/UNIVERSITY/Бази даних/database-cousework&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;khozhainov&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/KPI/Бази даних/database-cousework&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\KPI\\Бази даних\\database-cousework\\src\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -65,10 +96,129 @@
       <workItem from="1695242010525" duration="976000" />
       <workItem from="1695243574356" duration="1212000" />
       <workItem from="1695280461137" duration="38000" />
+      <workItem from="1695921269816" duration="2867000" />
+      <workItem from="1695931017450" duration="572000" />
+      <workItem from="1695932354069" duration="103000" />
+      <workItem from="1695979695311" duration="8000" />
+      <workItem from="1696842223630" duration="1450000" />
+      <workItem from="1696877349958" duration="3024000" />
+      <workItem from="1697063890107" duration="13000" />
+      <workItem from="1697194563450" duration="2124000" />
+      <workItem from="1697220688395" duration="6445000" />
+      <workItem from="1697296715209" duration="156000" />
+      <workItem from="1697297452992" duration="35000" />
+      <workItem from="1697377149069" duration="145000" />
+      <workItem from="1697377479882" duration="430000" />
+      <workItem from="1697378090924" duration="292000" />
+      <workItem from="1697668868267" duration="1731000" />
+      <workItem from="1697797213172" duration="578000" />
+      <workItem from="1697907844979" duration="154000" />
+      <workItem from="1697909940623" duration="19000" />
+      <workItem from="1697974340175" duration="107000" />
+      <workItem from="1697974627115" duration="9000" />
+      <workItem from="1699312286079" duration="572000" />
+      <workItem from="1699348799866" duration="270000" />
+      <workItem from="1699379931123" duration="3988000" />
+      <workItem from="1699434123906" duration="17000" />
+      <workItem from="1699606863315" duration="242000" />
+      <workItem from="1699779480611" duration="289000" />
+      <workItem from="1700165693947" duration="11000" />
+      <workItem from="1700670448192" duration="1837000" />
+      <workItem from="1700675986513" duration="5000" />
+      <workItem from="1700754994507" duration="149000" />
+      <workItem from="1700755399352" duration="277000" />
+      <workItem from="1700755978466" duration="530000" />
+      <workItem from="1700756936166" duration="552000" />
+      <workItem from="1700757918384" duration="11000" />
+      <workItem from="1701036019085" duration="2000" />
+      <workItem from="1702670040664" duration="1411000" />
+      <workItem from="1702675457218" duration="606000" />
+      <workItem from="1702729755145" duration="108000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactor model of business-objects">
+      <option name="closed" value="true" />
+      <created>1699384041950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699384041950</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add headers">
+      <option name="closed" value="true" />
+      <created>1699384366199</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699384366199</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix task relations indentations">
+      <option name="closed" value="true" />
+      <created>1699384809340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699384809340</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add SQL-script layout">
+      <option name="closed" value="true" />
+      <created>1700671433381</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700671433381</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix typos">
+      <option name="closed" value="true" />
+      <created>1700671521491</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700671521491</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add foreign keys">
+      <option name="closed" value="true" />
+      <created>1700671994561</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700671994561</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor model of business-objects" />
+    <MESSAGE value="Add headers" />
+    <MESSAGE value="Fix task relations indentations" />
+    <MESSAGE value="Add SQL-script layout" />
+    <MESSAGE value="Fix typos" />
+    <MESSAGE value="Add foreign keys" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add foreign keys" />
   </component>
 </project>
