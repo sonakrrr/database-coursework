@@ -7,9 +7,9 @@ footer: "ECL 2.0 Licensed | Copyright © 2023 Khozhainov"
 ---
 
 
-**Виконав(-ла):** 
+**Виконала:** 
 
-*студент 2-го курсу, групи ІМ-21*<span padding-right:5em></span> **Микола ХОЖАЇНОВ** [Пошта: kolyakhozhajinov@gmail.com, [Телеграм](https://t.me/Ilonovay)]
+*студентка 2-го курсу, групи ІМ-21*<span padding-right:5em></span> **Софія КРИЦЬКА** [Пошта: krytskasofia@gmail.com, [Телеграм](https://t.me/sonakrrr)]
 
 **Керівник**
 
