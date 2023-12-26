@@ -2,50 +2,54 @@
 
 Тестування сервісу проводилося за допомогою застосунку [Postman](https://www.google.com/search?q=postman&rlz=1C1GCEA_enUA1034UA1034&oq=postman&gs_lcrp=EgZjaHJvbWUqCQgAEEUYOxiABDIJCAAQRRg7GIAEMgcIARAAGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMTA4NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8).
 
-## Отримання користувача (метод GET)
+## Створення проєкту (метод POST)
 
-### Успішне отримання усіх користувачів
+### Запит на створення проєкту
 
-![get_all_success.png](https://imgur.com/hXfY3m1.jpg)
+![create_project.png](https://i.imgur.com/klqCKsg.png)
 
-### Успішне отримання одного користувача
+### Відповідь на створення проєкту
 
-![get_one_success.png](https://imgur.com/BiBhJIX.jpg)
+![create_project_response.png](https://imgur.com/637Tgxy.png)
 
-### Спроба отримати неіснуючого користувача
+### Спроба створити проєкт з помилковим часом
 
-![img.png](https://imgur.com/f3l2iFH.jpg)
+![create_project_exception_data.png](https://imgur.com/dwG07UD.png)
 
-## Створення користувача (метод POST)
+### Спроба створити проєкт з вже існуючою назвою
 
-### Успішне створення користувача
+![create_project_exception_title.png](https://imgur.com/UnZ0kPj.png)
 
-![img.png](https://imgur.com/cugsxCd.jpg)
+## Отримання проєкту (метод GET)
 
-### Спроба створити користувача з вже існуючими даними
+### Успішне отримання проєкту
 
-![img.png](https://imgur.com/KLjrFT7.jpg)
+![get_project.png](https://imgur.com/klqCKsg.png)
 
-### Спроба створити користувача без відповідних даних
+### Помилка в отриманні проєкту
 
-![img.png](https://imgur.com/4TK50ar.jpg)
+![get_project_exeption_invalid_id.png](https://imgur.com/n5sXEyq.png)
 
-## Оновлення користувача (метод PATCH)
+## Оновлення проєкту (метод PATCH)
 
-### Успішне оновлення користувача
+### Запит на оновлення проєкту
 
-![img.png](https://imgur.com/yPNbGRp.jpg)
+![patch_project.png](https://imgur.com/u9jtyoS.png)
 
-### Оновлення неіснуючого користувача
+### Відповідь на оновлення проєкту
 
-![img.png](https://imgur.com/Bdu7fFW.jpg)
+![patch_project_response.png](https://imgur.com/5p5V7Hm.png)
+
+### Помилка в оновленні проєкту
+
+![patch_project_exception_invalid_id.png](https://imgur.com/SiTBbhY.png)
 
 ## Видалення користувача (метод DELETE)
 
-### Успішне видалення користувача
+### Успішне видалення проєкту
 
-![img.png](https://imgur.com/mPE85y4.jpg)
+![delete_project.png](https://imgur.com/wzE6owA.png)
 
-### Видалення неіснуючого користувача
+### Видалення неіснуючого проєкту
 
-![img.png](https://imgur.com/D8Was3s.jpg)
+![delete_project_exeption_invalid_id.png](https://imgur.com/vIcyLwW.png)

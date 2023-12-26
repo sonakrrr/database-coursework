@@ -424,7 +424,7 @@ COMMIT;
 ## RESTfull сервіс для управління даними
 
 ### Схема бази даних
-```prisma
+```ts
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
